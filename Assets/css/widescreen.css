@@ -1,50 +1,57 @@
+[class*="col-"] {
+  float: left;
+}
+
+.col-lg-1 {width: 8.33%;}
+.col-lg-2 {width: 16.66%;}
+.col-lg-3 {width: 25%;}
+.col-lg-4 {width: 33.33%;}
+.col-lg-5 {width: 41.66%;}
+.col-lg-6 {width: 50%;}
+.col-lg-7 {width: 58.33%;}
+.col-lg-8 {width: 66.66%;}
+.col-lg-9 {width: 75%;}
+.col-lg-10 {width: 83.33%;}
+.col-lg-11 {width: 91.66%;}
+.col-lg-12 {width: 100%;}
+
+* {
+  box-sizing: border-box;
+}
+
+
 .navbar {
   border-width:0 0 0.2rem 0;
 }
 
-.navContent {
-  width:100%;
-  position: relative;
-  left:15%;
-  height:4rem;
-  
-}
 
 .nameLink:link {
-  padding: 1.3rem 1rem;
+  
   font-family: 'Georgia', Times, serif;
   color:#ffffff;
-  float: left;
-  position: relative;
-  bottom: 12%;
+}
+
+.navRightButtons {
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    
 }
 
 .activeLink:link {
-  padding: 1.5rem;
-  position: relative;
-  bottom: 0%;
-  width: 3%;
-  float: left;
-  margin-left: 29%;
+  float: left;  
 }
 
 .deadLink:link {
-  float:left;
-  padding:1.5rem;
-  position: relative;
-  bottom: 0%;
-  width: 3%;
+  float: left;
 }
 
 .content {
-  margin-top:1rem;
-  width: 64%;
-  padding: 1rem 1.3rem;
+  
   background: #ffffff;
   font-size: 17px;
-  position: relative;
-  left: 15%;
-  border: #dddddd solid 5px;
+  
+  border: #dddddd solid 0.1rem;
   align-items: center;
   overflow: auto;
 }
@@ -70,4 +77,10 @@
 
 .contentText {
   margin-top:1rem;
+}
+
+
+.footer {
+  height:3rem;
+  padding:1rem;
 }
