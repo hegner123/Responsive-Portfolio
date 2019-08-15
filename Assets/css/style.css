@@ -12,7 +12,7 @@ body {
 }
 
 h1 {
-  font-size:2em;
+  font-size:3rem;
   font-family: 'Georgia', Times, Times New Roman, serif;
   color:#ffffff;
 }
@@ -25,18 +25,21 @@ h1 {
   width:100%;
 }
 
-.navContent {
-  overflow: auto;
-}
+
 
 
 
 .nameLink:link {
   text-decoration: none;
   background:#4aaaa5;
+  padding:1rem;
 }
 
-
+.navButton {
+  font-size:1rem;
+  display:inline-block;
+  padding:1.9rem; 
+}
   
 
 .active {
@@ -70,35 +73,29 @@ h1 {
 }
 
 .content {
-  width:64%;
-  padding:20px 20px 50px;
   background:#ffffff;
-  
-  font-size:17px;
-  position: relative;
-  left:15%;
   border:#dddddd solid 5px;
   align-items: center;
+  padding:1rem;
+  margin-top:1rem;
 }
 
 .image {
-  position: relative;
-  top:-20px;
+  float: left;
+  
 }
 
-#aboutPic {
-  width:20%;
-  float:left;
-  margin:20px 20px 0px 0px;
-  position: relative;
-  
-  border:solid #777777 2px;
-  z-index: 2;
+.aboutPic {
+  width:inherit;
+  float: left;
+  margin: 1rem 1rem 0 0;
+  border: solid #777777 0.1rem;
 }
+
 
 .contentHeadText {
   border-style:solid;
-  border-width:0px 0px 1px;
+  /* border-width:0px 0px 1px; */
   border-color:#cccccc;
   text-align: left;
   color:#4aaaa5;
@@ -186,5 +183,10 @@ h1 {
 
 #submit:hover {
   outline:solid 5px #4aaaa5;
+}
+
+
+.hiddenDiv {
+  padding:1px;
 }
 

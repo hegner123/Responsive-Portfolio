@@ -29,6 +29,7 @@
   
   font-family: 'Georgia', Times, serif;
   color:#ffffff;
+  padding:1rem;
 }
 
 .navRightButtons {
@@ -37,6 +38,12 @@
     justify-content: flex-end;
     
 }
+
+.hiddenDiv {
+  padding:1px;
+}
+
+
 
 .activeLink:link {
   float: left;  
@@ -58,18 +65,21 @@
 
 
 .contentHeadText {
-
   border-style: solid;
-    border-width: 0 0 0.09rem;
-    border-color: #cccccc;
-    text-align: left;
-    color: #4aaaa5;
-    font-size: 2rem;
-    margin-bottom: 1em;
+  border-width: 0 0 0.09rem;
+  border-color: #cccccc;
+  text-align: left;
+  color: #4aaaa5;
+  font-size: 2rem;
+  margin-bottom: 1em;
 }
 
-#aboutPic {
+.image {
   width:25%;
+}
+
+.aboutPic {
+  
   float: left;
   margin: 1rem 1rem 0 0;
   border: solid #777777 0.1rem;
