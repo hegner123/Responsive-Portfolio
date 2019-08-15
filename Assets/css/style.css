@@ -77,10 +77,18 @@ h1 {
   align-items: center;
   padding:1rem;
   margin-top:1rem;
+  
 }
 
 
+.portfolioCont {
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap:nowrap;
 
+
+}
 
 .contentHeadText {
   border-style:solid;
@@ -117,20 +125,15 @@ h1 {
 }
 
 .contentImgDiv{
+  
   text-align: center;
   float: left;
-  border:solid black 1px;
+  
 }
 
-.contentImg {
-  width: inherit;
-}
 
-.caption {
-  background:#4aaaa5;
-  color:#ffffff;
-  padding:1px;
-}
+
+
 
 .caption:hover {
   font-size:20px;
