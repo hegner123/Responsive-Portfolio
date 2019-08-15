@@ -66,19 +66,20 @@
   margin-bottom: 1em;
 }
 
-.image {
-  width:25%;
-}
-
 .aboutPic {
+  width:50%;
+  height: auto;
   float: left;
   margin: 1rem 1rem 0 0;
   border: solid #777777 0.1rem;
 }
 
-
 .contentText {
   margin-top:1rem;
+}
+
+.contentImgDiv{
+  width:50%;
 }
 
 .footer {

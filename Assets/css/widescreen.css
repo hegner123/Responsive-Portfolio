@@ -33,7 +33,7 @@
 }
 
 .navRightButtons {
-    display:flex;
+    display:inline-flex;
     flex-direction: row;
     justify-content: flex-end;
     
@@ -74,20 +74,21 @@
   margin-bottom: 1em;
 }
 
-.image {
-  width:25%;
-}
+
 
 .aboutPic {
-  
+  width:20%;
+  height: auto;
   float: left;
-  margin: 1rem 1rem 0 0;
+  margin: 0.2rem 0.5rem 0.5rem 0;
   border: solid #777777 0.1rem;
 }
 
 .contentText {
   margin-top:1rem;
 }
+
+
 
 
 .footer {

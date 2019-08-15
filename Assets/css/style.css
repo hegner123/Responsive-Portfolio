@@ -27,10 +27,9 @@ h1 {
 
 
 
-
-
-.nameLink:link {
+.nameLink {
   text-decoration: none;
+  word-wrap: none;
   background:#4aaaa5;
   padding:1rem;
 }
@@ -80,17 +79,7 @@ h1 {
   margin-top:1rem;
 }
 
-.image {
-  float: left;
-  
-}
 
-.aboutPic {
-  width:inherit;
-  float: left;
-  margin: 1rem 1rem 0 0;
-  border: solid #777777 0.1rem;
-}
 
 
 .contentHeadText {
@@ -123,12 +112,7 @@ h1 {
 
 .contentImgDiv{
   text-align: center;
-  width: 320px;
-  height: 240px;
   float: left;
-  margin: 40px;
-  position: relative;
-  left: 63px;
 }
 
 .contentImg {
@@ -138,9 +122,7 @@ h1 {
 .caption {
   background:#4aaaa5;
   color:#ffffff;
-  padding:10px 0px;
-  position: relative;
-  bottom:80px;
+  padding:1px;
 }
 
 .caption:hover {
@@ -148,7 +130,7 @@ h1 {
 }
 
 .space {
-  height:100px;
+  height:5rem;
 }
 
 .contactForm {
@@ -156,28 +138,22 @@ h1 {
 }
 
 .name {
-  width:800px;
   font-size:18px;
 }
 
 .email {
-  width:800px;
   font-size:18px;
 }
 
 .textArea {
-  width:800px;
   font-size:18px;
-  height:250px;
   margin-bottom:2px;
 }
 
 #submit {
   background:#4aaaa5;
   color:#ffffff;
-  padding:20px;
-  position: relative;
-  bottom:-36px;
+  padding:1rem;
   font-size:20px;
 }
 
