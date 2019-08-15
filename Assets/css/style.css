@@ -99,15 +99,21 @@ h1 {
 }
 
 .footer {
-  
   text-align:center;
   position: fixed;
-  bottom:0px;
+  bottom: 0;
+  height:4rem;
+  padding:1rem;
   background:#666666;
   color:white;
-  width:100%;
   border:solid #4aaaa5;
-  border-width: 0.01rem 0 0 0;
+  border-width: 0.5rem 0 0 0;
+}
+
+.footerText {
+  display:block;
+  padding:0.4rem;
+
 }
 
 .contentImgDiv{
