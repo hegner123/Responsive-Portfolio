@@ -100,3 +100,11 @@
   left: 12.5%;
   padding:0.5rem 0;
 }
+
+.textArea {
+  height:7rem;
+}
+
+#submit:hover {
+  outline:solid 1px #4aaaa5;
+}

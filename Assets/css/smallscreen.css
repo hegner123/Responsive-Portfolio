@@ -112,5 +112,12 @@
   position: relative;
   bottom: 75px !important;
   left: 0% !important;
- 
+}
+
+.textArea {
+  height:5rem;
+}
+
+#submit:hover {
+  outline:solid 1px #4aaaa5;
 }

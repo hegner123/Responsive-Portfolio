@@ -29,7 +29,7 @@
   
   font-family: 'Georgia', Times, serif;
   color:#ffffff;
-  padding:1rem;
+  padding:1.46rem;
 }
 
 .navRightButtons {
@@ -74,7 +74,9 @@
   margin-bottom: 1em;
 }
 
-
+.contentHead {
+  margin-top:1rem;
+}
 
 .aboutPic {
   width:20%;
@@ -101,9 +103,15 @@
 .captionBlock {
   background:#4aaaa5;
   color:#ffffff;
-  
   position: relative;
   bottom: 28px;
   left: 25%;
- 
+}
+
+.textArea {
+  height:15rem;
+}
+
+#submit:hover {
+  outline:solid 1px #4aaaa5;
 }
